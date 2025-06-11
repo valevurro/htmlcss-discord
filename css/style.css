@@ -19,6 +19,31 @@ header
     flex-direction: row;
 }
 
+.intestazione{
+  display: flex;
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 10px;
+  height: auto;
+}
+
+.debug-style {
+  background-color: beige;
+  min-height: 50px;
+  border: 1px solid black;
+}
+
+.left-bar{
+  width: 20%;
+}
+.center-bar{
+  width: 60%;
+}
+
+.right-bar{
+  width: 20%;
+}
+
 
 main
 {
