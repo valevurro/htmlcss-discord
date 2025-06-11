@@ -2,4 +2,72 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px dashed black;
+}
+
+html,
+body
+{
+  height: 5076px;
+  min-width: 1680px;
+}
+
+header
+{
+    height: 300px;
+    background-color: #3161e0;
+}
+
+.intestazione{
+    display: flex;
+    width: 80%;
+    height: 10%
+}
+
+.scaricare{
+    display: flex;
+
+
+}
+
+main
+{
+  background-color: blue;
+}
+
+aside
+{
+  background-color: green;
+}
+
+footer
+{
+  height: 100px;
+  background-color: orange;
+}
+
+
+.sidebar
+{
+  width: 20%;
+
+
+}
+
+main
+{
+  width: 60%;
+
+
+}
+
+aside
+{
+  width: 20%;
+
+}
+
+footer
+{
+  margin-top: 1rem;
 }
