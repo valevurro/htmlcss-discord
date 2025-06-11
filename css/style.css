@@ -14,60 +14,21 @@ body
 
 header
 {
-    height: 300px;
+    height: 570px;
     background-color: #3161e0;
+    flex-direction: row;
 }
 
-.intestazione{
-    display: flex;
-    width: 80%;
-    height: 10%
-}
-
-.scaricare{
-    display: flex;
-
-
-}
 
 main
 {
+  display: flex;
   background-color: blue;
-}
-
-aside
-{
-  background-color: green;
+  height: 12084px;
 }
 
 footer
 {
-  height: 100px;
+  height: 738px;
   background-color: orange;
-}
-
-
-.sidebar
-{
-  width: 20%;
-
-
-}
-
-main
-{
-  width: 60%;
-
-
-}
-
-aside
-{
-  width: 20%;
-
-}
-
-footer
-{
-  margin-top: 1rem;
 }
