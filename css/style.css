@@ -12,11 +12,13 @@ body
   min-width: 1680px;
 }
 
+/* region Header */
+
 header
 {
-    height: 570px;
-    background-color: #3161e0;
-    flex-direction: row;
+  height: 570px;
+  flex-direction: row;
+  background-image: url(../img/jumbo.png);
 }
 
 .intestazione{
@@ -34,16 +36,37 @@ header
 }
 
 .left-bar{
+  display: flex;
   width: 20%;
+  align-items: center;
 }
 .center-bar{
+  display: flex;
   width: 60%;
+  align-items: center;
 }
 
 .right-bar{
+  display: flex;
   width: 20%;
+  align-items: center;
 }
 
+.download{
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 10px;
+  height: 400px;
+}
+
+.testo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* endregion Header */
 
 main
 {
