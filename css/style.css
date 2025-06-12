@@ -17,7 +17,6 @@ body
 header
 {
   height: 570px;
-  flex-direction: row;
   background-image: url(../img/jumbo.png);
 }
 
@@ -53,18 +52,15 @@ header
 }
 
 .download{
-  display: flex;
-  align-items: center;
   max-width: 600px;
-  margin: 25px auto;
   padding: 10px;
-  height: 400px;
 }
 
 .testo{
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 400px;
 }
 /* endregion Header */
 
@@ -73,6 +69,43 @@ main
   display: flex;
   background-color: blue;
   height: 12084px;
+  min-width: auto;
+}
+
+.first-block{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  padding-left: 200px;
+}
+
+.first-text{
+  max-width: 250px;
+  padding: 10px;
+}
+
+first-image{
+  display: flex;
+  height: auto;
+}
+
+.second-block{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  padding-left: 200px;
+}
+
+.second-text{
+  max-width: 250px;
+  padding: 10px;
+}
+
+second-image{
+  display: flex;
+  height: auto;
 }
 
 footer
