@@ -108,6 +108,24 @@ second-image{
   height: auto;
 }
 
+.third-block{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  padding-left: 200px;
+}
+
+.third-text{
+  max-width: 250px;
+  padding: 10px;
+}
+
+third-image{
+  display: flex;
+  height: auto;
+}
+
 footer
 {
   height: 738px;
