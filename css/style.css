@@ -38,6 +38,7 @@ header
   width: 20%;
   align-items: center;
 }
+
 .center-bar{
   display: flex;
   width: 60%;
@@ -47,7 +48,8 @@ header
 .right-bar{
   display: flex;
   width: 20%;
-  align-items: flex-end;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .download{
