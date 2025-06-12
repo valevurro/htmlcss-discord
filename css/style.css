@@ -21,10 +21,10 @@ header
 
 .intestazione{
   display: flex;
-  max-width: 600px;
+  max-width: 1194px;
   margin: 25px auto;
   padding: 10px;
-  height: auto;
+  height: 42;
 }
 
 .debug-style {
@@ -55,13 +55,14 @@ header
 .download{
   max-width: 600px;
   padding: 10px;
+  height: 400px;
+  width: 910;
 }
 
 .testo{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px;
 }
 /* #endregion Header */
 
@@ -70,14 +71,17 @@ main
 {
   background-color: blue;
   height: 12084px;
+  width: auto;
 }
 
 .first-block{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 400px;
+  height: 495px;
+  width: 1196;
   padding-left: 200px;
+  background-color: aliceblue;
 }
 
 .first-text{
@@ -94,7 +98,8 @@ first-image{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 400px;
+  height: 495px;
+  width: 1196;
   padding-left: 200px;
 }
 
@@ -112,8 +117,10 @@ second-image{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 400px;
+  height: 495px;
+  width: 1196;
   padding-left: 200px;
+  background-color: aliceblue;
 }
 
 .third-text{
