@@ -6,20 +6,85 @@
 }
 
 html,
-body
-{
+body{
   height: 5076px;
   min-width: 1680px;
 }
 
-/* #region Header */
-header
-{
-  height: 570px;
-  background-image: url(../img/jumbo.png);
+/* #region debug*/
+
+.debug{
+
+  header
+  {
+    height: 80px;
+  }
+
+  .container-sm
+  {
+    min-height: 390px;
+    background-color: pink;
+  }
+
+
+  section
+  {
+    height: 400px;
+    background-color: gray;
+
+    .container
+    {
+      height: 100%;
+      background-color: orange;
+
+
+      .block-text,
+      .block-image
+      {
+        background-color: green;
+        border: 1px solid red;
+      }
+
+    }
+
+  }
+
 }
 
-.intestazione{
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container-sm{
+  width: 65%;
+  margin: 0 auto;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.block-image{
+  width: 70%;
+}
+
+.block-text{
+  width: 30%;
+}
+
+/* #endregion debug*/
+
+/* #region Header */
+
+nav.container{
+  height: 100%;
+  padding: 1 rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*.container{
   display: flex;
   max-width: 1194px;
   margin: 25px auto;
@@ -50,6 +115,16 @@ header
   width: 20%;
   align-items: center;
   justify-content: flex-end;
+} */
+
+/* #endregion Header */
+
+/* #region Main */
+main
+{
+  background-color: blue;
+  height: 12084px;
+  width: auto;
 }
 
 .download{
@@ -63,15 +138,6 @@ header
   display: flex;
   justify-content: center;
   align-items: center;
-}
-/* #endregion Header */
-
-/* #region Main */
-main
-{
-  background-color: blue;
-  height: 12084px;
-  width: auto;
 }
 
 .first-block{
