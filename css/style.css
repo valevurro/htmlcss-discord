@@ -144,7 +144,7 @@ main
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 495px;
+  height: 603px;
   width: 1196;
   padding-left: 200px;
   background-color: aliceblue;
@@ -164,7 +164,7 @@ first-image{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 495px;
+  height: 603px;
   width: 1196;
   padding-left: 200px;
 }
@@ -183,7 +183,7 @@ second-image{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 495px;
+  height: 603px;
   width: 1196;
   padding-left: 200px;
   background-color: aliceblue;
