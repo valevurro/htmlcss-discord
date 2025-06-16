@@ -11,25 +11,8 @@ body{
   min-width: 1680px;
 }
 
-/* #region debug*/
-
-.debug{
-
-  header
-  {
-    height: 80px;
-  }
-
-  .container-sm
-  {
-    min-height: 390px;
-    background-color: pink;
-  }
-
-}
-
 .container{
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -41,8 +24,6 @@ body{
 .d-flex{
   display: flex;
 }
-
-/* #endregion debug*/
 
 /* #region Header */
 
@@ -58,49 +39,19 @@ nav.container{
   align-items: center;
 }
 
-/*.container{
-  display: flex;
-  max-width: 1194px;
-  margin: 25px auto;
-  padding: 10px;
-  height: 42;
-}
-
-.debug-style {
-  background-color: beige;
-  min-height: 50px;
-  border: 1px solid black;
-}
-
-.left-bar{
-  display: flex;
-  width: 20%;
-  align-items: center;
-}
-
-.center-bar{
-  display: flex;
-  width: 60%;
-  align-items: center;
-}
-
-.right-bar{
-  display: flex;
-  width: 20%;
-  align-items: center;
-  justify-content: flex-end;
-} */
-
 /* #endregion Header */
 
 /* #region Main */
 
-/*main
-{
-  background-color: blue;
-  height: 2801px;
-  width: auto;
-}*/
+.testo{
+  display: flex;
+  height: 503px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-position: center;
+}
 
 .download{
   max-width: 600px;
@@ -109,22 +60,12 @@ nav.container{
   width: 910;
 }
 
-.testo{
-  display: flex;
-  height: 503px;
-  justify-content: center;
-  align-items: center;
-  background-image: url(../img/jumbo.png);
-}
-
 #study-group{
   background-color: aliceblue;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-.container{
-  max-width: 1200px;
-  margin: 0 auto;
-}
 .w-60{
   width: 60%;
 }
@@ -138,14 +79,20 @@ nav.container{
 
 #voice-connected{
   background-color: antiquewhite;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #coach{
   background-color: aliceblue;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #tecnologia{
   background-color: antiquewhite;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .final-text{
