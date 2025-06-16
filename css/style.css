@@ -83,6 +83,7 @@ body{
 
 nav.container{
   height: 100%;
+  width: 1196px;
   padding: 1 rem;
   justify-content: space-between;
   align-items: center;
@@ -124,12 +125,13 @@ nav.container{
 /* #endregion Header */
 
 /* #region Main */
-main
+
+/*main
 {
   background-color: blue;
   height: 2801px;
   width: auto;
-}
+}*/
 
 .download{
   max-width: 600px;
@@ -143,6 +145,11 @@ main
   height: 503px;
   justify-content: center;
   align-items: center;
+  background-image: url(../img/jumbo.png);
+}
+
+#study-group{
+  background-color: aliceblue;
 }
 
 .first-block{
@@ -150,9 +157,8 @@ main
   justify-content: space-around;
   align-items: center;
   height: 603px;
-  width: 1196;
-  padding-left: 200px;
-  background-color: aliceblue;
+  width: 1196px;
+  margin: 0 auto;
 }
 
 .first-text{
@@ -165,13 +171,17 @@ first-image{
   height: auto;
 }
 
+#voice-connected{
+  background-color: antiquewhite;
+}
+
 .second-block{
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 603px;
-  width: 1196;
-  padding-left: 200px;
+  width: 1196px;
+  margin: 0 auto;
 }
 
 .second-text{
@@ -184,14 +194,17 @@ second-image{
   height: auto;
 }
 
+#coach{
+  background-color: aliceblue;
+}
+
 .third-block{
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 603px;
-  width: 1196;
-  padding-left: 200px;
-  background-color: aliceblue;
+  width: 1196px;
+  margin: 0 auto;
 }
 
 .third-text{
@@ -204,6 +217,10 @@ third-image{
   height: auto;
 }
 
+#tecnologia{
+  background-color: antiquewhite;
+}
+
 .final-block{
   height: 1000px;
 }
@@ -214,6 +231,7 @@ third-image{
   align-items: center;
   width: 1199px;
   height: 887px;
+  margin: 0 auto;
 }
 /* #endregion Main */
 
