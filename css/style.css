@@ -77,6 +77,10 @@ body{
 
 /* #region Header */
 
+#app-header{
+  height: 75px;
+}
+
 nav.container{
   height: 100%;
   padding: 1 rem;
@@ -123,7 +127,7 @@ nav.container{
 main
 {
   background-color: blue;
-  height: 12084px;
+  height: 2801px;
   width: auto;
 }
 
@@ -136,6 +140,7 @@ main
 
 .testo{
   display: flex;
+  height: 503px;
   justify-content: center;
   align-items: center;
 }
@@ -200,10 +205,15 @@ third-image{
 }
 
 .final-block{
+  height: 1000px;
+}
+
+.final-text{
   display: flex;
-  height: 966px;
   justify-content: center;
   align-items: center;
+  width: 1199px;
+  height: 887px;
 }
 /* #endregion Main */
 
