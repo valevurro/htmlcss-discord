@@ -83,7 +83,7 @@ body{
 
 nav.container{
   height: 100%;
-  width: 1196px;
+  width: 60%;
   padding: 1 rem;
   justify-content: space-between;
   align-items: center;
@@ -157,12 +157,12 @@ nav.container{
   justify-content: space-around;
   align-items: center;
   height: 603px;
-  width: 1196px;
+  width: 60%;
   margin: 0 auto;
 }
 
 .first-text{
-  max-width: 250px;
+  width: 40%;
   padding: 10px;
 }
 
@@ -180,12 +180,12 @@ first-image{
   justify-content: space-around;
   align-items: center;
   height: 603px;
-  width: 1196px;
+  width: 60%;
   margin: 0 auto;
 }
 
 .second-text{
-  max-width: 250px;
+  width: 40%;
   padding: 10px;
 }
 
@@ -203,12 +203,12 @@ second-image{
   justify-content: space-around;
   align-items: center;
   height: 603px;
-  width: 1196px;
+  width: 60%;
   margin: 0 auto;
 }
 
 .third-text{
-  max-width: 250px;
+  width: 40%;
   padding: 10px;
 }
 
@@ -229,7 +229,7 @@ third-image{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1199px;
+  width: 60%;
   height: 887px;
   margin: 0 auto;
 }
