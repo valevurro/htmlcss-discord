@@ -26,29 +26,6 @@ body{
     background-color: pink;
   }
 
-
-  section
-  {
-    height: 400px;
-    background-color: gray;
-
-    .container
-    {
-      height: 100%;
-      background-color: orange;
-
-
-      .block-text,
-      .block-image
-      {
-        background-color: green;
-        border: 1px solid red;
-      }
-
-    }
-
-  }
-
 }
 
 .container{
@@ -63,14 +40,6 @@ body{
 
 .d-flex{
   display: flex;
-}
-
-.block-image{
-  width: 70%;
-}
-
-.block-text{
-  width: 30%;
 }
 
 /* #endregion debug*/
@@ -152,77 +121,31 @@ nav.container{
   background-color: aliceblue;
 }
 
-.first-block{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 603px;
-  width: 60%;
+.container{
+  max-width: 1200px;
   margin: 0 auto;
 }
-
-.first-text{
+.w-60{
+  width: 60%;
+}
+.w-40{
   width: 40%;
-  padding: 10px;
+}
+.d-flex{
+  display: flex;
 }
 
-first-image{
-  display: flex;
-  height: auto;
-}
 
 #voice-connected{
   background-color: antiquewhite;
-}
-
-.second-block{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 603px;
-  width: 60%;
-  margin: 0 auto;
-}
-
-.second-text{
-  width: 40%;
-  padding: 10px;
-}
-
-second-image{
-  display: flex;
-  height: auto;
 }
 
 #coach{
   background-color: aliceblue;
 }
 
-.third-block{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 603px;
-  width: 60%;
-  margin: 0 auto;
-}
-
-.third-text{
-  width: 40%;
-  padding: 10px;
-}
-
-third-image{
-  display: flex;
-  height: auto;
-}
-
 #tecnologia{
   background-color: antiquewhite;
-}
-
-.final-block{
-  height: 1000px;
 }
 
 .final-text{
