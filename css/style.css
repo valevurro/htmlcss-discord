@@ -7,7 +7,7 @@
 
 html,
 body{
-  height: 5076px;
+  height: 4121px;
   min-width: 1680px;
 }
 
@@ -197,6 +197,13 @@ second-image{
 third-image{
   display: flex;
   height: auto;
+}
+
+.final-block{
+  display: flex;
+  height: 966px;
+  justify-content: center;
+  align-items: center;
 }
 /* #endregion Main */
 
