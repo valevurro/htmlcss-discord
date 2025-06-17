@@ -29,6 +29,7 @@ body{
 
 #app-header{
   height: 75px;
+  background-color: #3161e0;
 }
 
 nav.container{
@@ -53,17 +54,17 @@ nav.container{
   background-position: center;
 }
 
-.download{
+/*.download{
   max-width: 600px;
   padding: 10px;
   height: 400px;
   width: 910;
-}
+}*/
 
 #study-group{
-  background-color: aliceblue;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  background-color: white;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .w-60{
@@ -78,21 +79,21 @@ nav.container{
 
 
 #voice-connected{
-  background-color: antiquewhite;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  background-color:  rgb(234, 234, 234);
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 #coach{
-  background-color: aliceblue;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  background-color: white;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 #tecnologia{
-  background-color: antiquewhite;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  background-color: rgb(234, 234, 234);
+  padding-top: 240px;
+  padding-bottom: 240px;
 }
 
 .final-text{
