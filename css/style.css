@@ -28,18 +28,19 @@ body{
 
 /* #region Header */
 
-#app-header{
-  height: 75px;
-  background-color: #3161e0;
+header{
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
 }
 
-nav.container{
+.container{
   height: 100%;
   width: 60%;
   padding: 1 rem;
   justify-content: space-between;
   align-items: center;
-  color: white;
 }
 
 .logo{
@@ -47,7 +48,8 @@ nav.container{
 }
 
 .menù{
-  
+  display: flex;
+  flex-direction: column;
 }
 
 .action{
@@ -57,19 +59,31 @@ nav.container{
   border-radius: 10px;
 }
 
-/* #endregion Header */
-
-/* #region Main */
-
-.testo{
+.jumbotron{
   display: flex;
   height: 503px;
   justify-content: center;
   align-items: center;
-  background-image: url(../img/jumbo.png);
-  background-size: cover;
-  background-position: center;
 }
+
+.content{
+  width: 40%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.parlare{
+  font-size: 45px;
+}
+
+.testo{
+  padding-top: 40px;
+}
+
+/* #endregion Header */
+
+/* #region Main */
 
 /*.download{
   max-width: 600px;
